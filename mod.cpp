@@ -1,0 +1,10 @@
+name = "GT Armory Recoil System";
+picture = "tacgt_logo_128.paa";
+description = "G&T Armory - Recoil System";
+logo = "tacgt_logo_64.paa";
+logoOver = "tacgt_logo_64.paa";
+tooltip = "";
+tooltipOwned = "";
+overview = "";
+author = "TyroneMF";
+overviewPicture = "tacgt_logo_128.paa";

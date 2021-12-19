@@ -1,0 +1,28 @@
+name = "GT Armory Recoil System"
+prefix = "tacgtrs"
+author = "Tyrone"
+files = [
+    "mod.cpp",
+    "README.md",
+    "tacgt_logo_128.paa",
+    "tacgt_logo_64.paa"
+]
+
+modname = "gt_armory_recoil_system"
+key_name = "{{prefix}}_{{version}}"
+authority = "{{prefix}}_{{version}}"
+
+check = ["!check_release_os"]
+releasebuild = [
+    "@zip GTArmory_RS_{{version}}"
+]
+
+[header_exts]
+version = "{{git \"id 8\"}}"
+
+[scripts.check_release_os]
+steps_linux = [
+    'echo -e "\033[0;33m[WARN]\033[0m Linux release builds have broken keys! Use only for local testing!"'
+]
+only_release = true
+show_output = true
