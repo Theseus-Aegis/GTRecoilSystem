@@ -6,7 +6,24 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"A3_Data_F_Enoch_Loadorder", "A3_Data_F_Mod_Loadorder", "tacgtrs_main", "tacgtrs_recoils", "cba_main", "cup_weapons_m16"};
+        requiredAddons[] = {
+            "A3_Data_F_Enoch_Loadorder",
+            "A3_Data_F_Mod_Loadorder",
+            "tacgtrs_main",
+            "tacgtrs_recoils",
+            "cba_main",
+            "CUP_weapons_ACR",
+            "CUP_Weapons_AK",
+            "CUP_Weapons_CZ805",
+            "CUP_Weapons_Famas",
+            "CUP_Weapons_X95",
+            "CUP_Weapons_G36",
+            "CUP_Weapons_Galil",
+            "CUP_Weapons_HK416",
+            "CUP_Weapons_L85",
+            "CUP_Weapons_M16",
+            "CUP_Weapons_SCAR"
+        };
         author = CSTRING(Authors);
         authors[] = {"Tyrone"};
         url = CSTRING(URL);
