@@ -52,6 +52,22 @@ class CLASS(556_GL_Short): CLASS(556_GL) {
     permanent = 0.16;
 };
 
+// Bullpup GLs
+class CLASS(556_Bullpup_GL_Long) {
+    kickBack[] = {0.03, 0.05};
+    muzzleOuter[] = {0.14, 0.60, 0.25, 0.3};
+    permanent = 0.12;
+    temporary = 0.02;
+};
+class CLASS(556_Bullpup_GL_Medium): CLASS(556_Bullpup_GL_Long) {
+    muzzleOuter[] = {0.15, 0.63, 0.28, 0.3};
+    permanent = 0.13;
+};
+class CLASS(556_Bullpup_GL_Short): CLASS(556_Bullpup_GL_Medium) {
+    muzzleOuter[] = {0.16, 0.64, 0.29, 0.31};
+    permanent = 0.14;
+};
+
 // Foregrip Variants, inherits from GL
 class CLASS(556_Foregrip_Long): CLASS(556_GL_Long) {};
 class CLASS(556_Foregrip_Medium): CLASS(556_GL_Medium) {};
