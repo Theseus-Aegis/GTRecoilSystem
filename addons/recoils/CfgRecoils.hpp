@@ -10,5 +10,5 @@ class CfgRecoils {
     */
 
     #include "recoils\556.hpp"
-
+    #include "recoils\12G.hpp"
 };

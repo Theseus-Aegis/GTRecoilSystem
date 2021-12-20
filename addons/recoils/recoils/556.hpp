@@ -47,7 +47,7 @@ class CLASS(556_GL_Medium): CLASS(556_GL_Long) {
     permanent = 0.14;
 };
 // Short Barreled GL - Pretty rare.
-class CLASS(556_GL_Short): CLASS(556_GL) {
+class CLASS(556_GL_Short): CLASS(556_GL_Medium) {
     muzzleOuter[] = {0.24, 0.67, 0.33, 0.33};
     permanent = 0.16;
 };

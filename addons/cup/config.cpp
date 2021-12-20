@@ -22,7 +22,9 @@ class CfgPatches {
             "CUP_Weapons_HK416",
             "CUP_Weapons_L85",
             "CUP_Weapons_M16",
-            "CUP_Weapons_SCAR"
+            "CUP_Weapons_SCAR",
+            "CUP_Weapons_M1014",
+            "CUP_Weapons_Saiga12K"
         };
         author = CSTRING(Authors);
         authors[] = {"Tyrone"};

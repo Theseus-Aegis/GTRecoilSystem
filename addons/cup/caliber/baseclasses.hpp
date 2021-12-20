@@ -46,9 +46,18 @@ class CUP_l85a2_ugl;
 
 // M16
 class CUP_arifle_XM16E1;
+class CUP_arifle_M4_Base;
+class CUP_arifle_M16_Base;
 
 // M4
 class CUP_arifle_M4A1_BUIS_Base;
 
 // SCAR
 class CUP_arifle_SCAR_L_Base;
+
+// M1014
+class CUP_sgun_M1014_base;
+
+// Saiga
+class Rifle_Base_F;
+

@@ -1,5 +1,7 @@
 class CfgWeapons {
     #include "caliber\baseclasses.hpp"
+
+    // 5.56 Rifles
     #include "caliber\556\acr.hpp"
     #include "caliber\556\ak.hpp"
     #include "caliber\556\cz.hpp"
@@ -15,4 +17,8 @@ class CfgWeapons {
     #include "caliber\556\mk12.hpp"
     #include "caliber\556\mk18.hpp"
     #include "caliber\556\scar.hpp"
+
+    // 12G Shotguns
+    #include "caliber\12G\m1014.hpp"
+    #include "caliber\12G\saiga12.hpp"
 };
