@@ -16,6 +16,9 @@ class CUP_arifle_Mk16_STD_FG: CUP_arifle_Mk16_STD {
 class CUP_arifle_Mk16_STD_SFG: CUP_arifle_Mk16_STD {
     recoil = QCLASS(556_Foregrip_Medium);
 };
+class CUP_arifle_Mk16_STD_AFG: CUP_arifle_Mk16_STD_FG {
+    recoil = QCLASS(556_Foregrip_Medium);
+};
 // GL
 class CUP_arifle_Mk16_STD_EGLM: CUP_arifle_Mk16_STD {
     recoil = QCLASS(556_GL_Medium);

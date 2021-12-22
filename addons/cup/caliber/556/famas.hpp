@@ -4,3 +4,6 @@
 class CUP_Famas_F1: CUP_Famas_Base {
     recoil = QCLASS(556_LongBarrel);
 };
+class CUP_Famas_F1_Rail: CUP_Famas_Base {
+    recoil = QCLASS(556_LongBarrel);
+};
