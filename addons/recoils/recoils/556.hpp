@@ -9,7 +9,7 @@ class CLASS(556_LongBarrel) {
 // Medium barreled variant of a 5.56 rifle. (14"-16")
 class CLASS(556_MediumBarrel): CLASS(556_LongBarrel) {
     muzzleOuter[] = {0.25, 0.7, 0.33, 0.33};
-    permanent = 0.15;
+    permanent = 0.17;
 };
 
 // Short barreled variant of a 5.56 rifle. (< 14")
