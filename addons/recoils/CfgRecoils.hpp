@@ -9,6 +9,8 @@ class CfgRecoils {
         (causing temporal weapon rise up and down, thus causing the weapon to shake in your hands).
     */
 
+    #include "recoils\545.hpp"
     #include "recoils\556.hpp"
+    #include "recoils\762R.hpp"
     #include "recoils\12G.hpp"
 };

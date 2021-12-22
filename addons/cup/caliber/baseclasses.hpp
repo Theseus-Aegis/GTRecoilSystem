@@ -7,10 +7,11 @@ class CUP_arifle_ACR_EGLM_BASE_556;
 
 // AKs
 class CUP_arifle_AK_Base;
-class CUP_arifle_AK74M; // Can remove after 5.45 rifles are completed.
-class CUP_arifle_AK74M_GL; // Can remove after 5.45 rifles are completed.
-class CUP_arifle_AK107; // Can remove after 5.45 rifles are completed.
-class CUP_arifle_AK107_GL; // Can remove after 5.45 rifles are completed.
+class CUP_arifle_AKS_Base;
+class CUP_arifle_AK107_Base;
+
+// AUG
+class CUP_arifle_AUG_Base;
 
 // CZs
 class CUP_arifle_CZ805_Base;
