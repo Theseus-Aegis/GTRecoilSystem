@@ -6,7 +6,14 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgtrs_main", "tacgtrs_recoils"};
+        requiredAddons[] = {
+            "tacgtrs_main",
+            "tacgtrs_recoils",
+            "hlcweapons_acr",
+            "hlcweapons_AUG",
+            "hlcweapons_ar15",
+            "hlcweapons_SG550"
+        };
         author = ECSTRING(main,Authors);
         authors[] = {"Tyrone"};
         url = CSTRING(URL);

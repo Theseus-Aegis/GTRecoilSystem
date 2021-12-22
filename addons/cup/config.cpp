@@ -26,7 +26,7 @@ class CfgPatches {
             "CUP_Weapons_M1014",
             "CUP_Weapons_Saiga12K"
         };
-        author = CSTRING(Authors);
+        author = ECSTRING(main,Authors);
         authors[] = {"Tyrone"};
         url = CSTRING(URL);
         VERSION_CONFIG;

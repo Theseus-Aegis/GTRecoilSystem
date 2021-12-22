@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"A3_Data_F_Enoch_Loadorder", "A3_Data_F_Mod_Loadorder", "tacgtrs_main"};
-        author = CSTRING(Authors);
+        author = ECSTRING(main,Authors);
         authors[] = {"Tyrone"};
         url = CSTRING(URL);
         VERSION_CONFIG;
