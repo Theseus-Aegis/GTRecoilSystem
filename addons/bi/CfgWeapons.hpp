@@ -10,4 +10,10 @@ class CfgWeapons {
 
     // 762x39
     #include "caliber\762R\ak.hpp"
+
+    // 762x51
+    #include "caliber\762N\ebr.hpp"
+    #include "caliber\762N\hk417.hpp"
+    #include "caliber\762N\m14.hpp"
+    #include "caliber\762N\sig.hpp"
 };

@@ -1,4 +1,4 @@
-// 7.62x39
+// 7.62x39 Russian
 
 // Long barreled variant of a 7.62 rifle (16"-18")
 class CLASS(762R_LongBarrel) {

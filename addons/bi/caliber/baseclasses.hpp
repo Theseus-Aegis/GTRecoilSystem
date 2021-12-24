@@ -14,5 +14,18 @@ class arifle_SPAR_01_base_F;
 class arifle_SPAR_01_GL_base_F;
 class arifle_SPAR_02_base_F;
 
+// HK417
+class arifle_SPAR_03_base_F;
+
+// M14
+class DMR_06_base_F;
+class DMR_06_hunter_base_F;
+
+// Mk14 Mod 1 EBR
+class EBR_base_F;
+
+// SIG
+class DMR_03_base_F;
+
 // Tar-21s
 class Tavor_base_F;

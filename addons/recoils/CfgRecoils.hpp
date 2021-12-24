@@ -12,5 +12,6 @@ class CfgRecoils {
     #include "recoils\545.hpp"
     #include "recoils\556.hpp"
     #include "recoils\762R.hpp"
+    #include "recoils\762N.hpp"
     #include "recoils\12G.hpp"
 };
