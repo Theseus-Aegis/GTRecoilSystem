@@ -21,13 +21,13 @@ class arifle_SPAR_01_GL_snd_F: arifle_SPAR_01_GL_base_F {
     recoil = QCLASS(556_GL_Short);
 };
 
-// HK416A5 - Medium Barrel
+// HK416A5 - Medium Barrel Foregrip
 class arifle_SPAR_02_blk_F: arifle_SPAR_02_base_F {
-    recoil = QCLASS(556_MediumBarrel);
+    recoil = QCLASS(556_Foregrip_Medium);
 };
 class arifle_SPAR_02_khk_F: arifle_SPAR_02_base_F {
-    recoil = QCLASS(556_MediumBarrel);
+    recoil = QCLASS(556_Foregrip_Medium);
 };
 class arifle_SPAR_02_snd_F: arifle_SPAR_02_base_F {
-    recoil = QCLASS(556_MediumBarrel);
+    recoil = QCLASS(556_Foregrip_Medium);
 };
