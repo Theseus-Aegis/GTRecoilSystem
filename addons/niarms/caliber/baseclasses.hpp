@@ -1,6 +1,8 @@
 // ACR-E
 class hlc_acr556_base;
 class hlc_rifle_ACR_SBR_black;
+class hlc_rifle_ACR68_SBR_black;
+class hlc_acr_base;
 
 // AUG
 class hlc_aug_base;

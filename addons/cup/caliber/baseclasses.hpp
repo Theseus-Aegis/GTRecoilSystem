@@ -4,6 +4,11 @@ class CUP_arifle_ACR_EGLM_SHORT_BASE_556;
 class CUP_arifle_ACR_BASE_556;
 class CUP_arifle_ACR_DMR_BASE_556;
 class CUP_arifle_ACR_EGLM_BASE_556;
+class CUP_arifle_ACR_Short_BASE_68;
+class CUP_arifle_ACR_EGLM_SHORT_BASE_68;
+class CUP_arifle_ACR_BASE_68;
+class CUP_arifle_ACR_EGLM_BASE_68;
+class CUP_arifle_ACR_DMR_BASE_68;
 
 // AKs
 class CUP_arifle_AK_Base;

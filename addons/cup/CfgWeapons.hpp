@@ -23,6 +23,9 @@ class CfgWeapons {
     #include "caliber\556\mk18.hpp"
     #include "caliber\556\scar.hpp"
 
+    // 6.8
+    #include "caliber\68\acr.hpp"
+
     // 762x39
     #include "caliber\762R\ak.hpp"
     #include "caliber\762R\cz.hpp"
