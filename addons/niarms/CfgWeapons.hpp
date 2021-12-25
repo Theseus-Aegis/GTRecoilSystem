@@ -9,4 +9,8 @@ class CfgWeapons {
 
     // 762x39
     #include "caliber\762R\sig.hpp"
+
+    // .300 Blackout
+    #include "caliber\blackout\ar15.hpp"
+    #include "caliber\blackout\honeybadger.hpp"
 };

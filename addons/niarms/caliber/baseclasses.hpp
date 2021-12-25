@@ -8,6 +8,9 @@ class hlc_acr_base;
 class hlc_aug_base;
 class hlc_rifle_auga3;
 
+// Honey Badger
+class hlc_rifle_honeybase;
+
 // M4 Variants
 class hlc_ar15_base;
 class hlc_rifle_CQBR;
