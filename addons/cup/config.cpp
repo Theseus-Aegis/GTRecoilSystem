@@ -30,6 +30,7 @@ class CfgPatches {
             "CUP_Weapons_M16",
             "CUP_Weapons_Saiga12K",
             "CUP_Weapons_SCAR",
+            "CUP_Weapons_SVD",
             "CUP_Weapons_X95"
         };
         author = ECSTRING(main,Authors);

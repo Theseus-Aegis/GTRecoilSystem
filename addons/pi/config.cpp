@@ -9,6 +9,7 @@ class CfgPatches {
         requiredAddons[] = {
             "tacgtrs_main",
             "tacgtrs_recoils",
+            "bnae_falkor",
             "bnae_RK95"
         };
         author = ECSTRING(main,Authors);
