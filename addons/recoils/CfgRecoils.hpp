@@ -9,9 +9,18 @@ class CfgRecoils {
         (causing temporal weapon rise up and down, thus causing the weapon to shake in your hands).
     */
 
+    // Inherit into new classes.
+    class CLASS(Recoil_Default) {
+        kickBack[] = {0.03, 0.05};
+        temporary = 0.02;
+    };
+
     #include "recoils\545.hpp"
     #include "recoils\556.hpp"
+    #include "recoils\65.hpp"
+    #include "recoils\68.hpp"
     #include "recoils\762R.hpp"
     #include "recoils\762N.hpp"
     #include "recoils\12G.hpp"
+    #include "recoils\blackout.hpp"
 };
