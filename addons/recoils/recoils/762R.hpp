@@ -1,11 +1,9 @@
 // 7.62x39 Russian
 
 // Long barreled variant of a 7.62 rifle (16"-18")
-class CLASS(762R_LongBarrel) {
-    kickBack[] = {0.03, 0.05};
+class CLASS(762R_LongBarrel): CLASS(Recoil_Default) {
     muzzleOuter[] = {0.245, 0.63, 0.33, 0.33};
     permanent = 0.15;
-    temporary = 0.02;
 };
 
 // Medium barreled variant of a 7.62 rifle (14"-16")
@@ -21,11 +19,9 @@ class CLASS(762R_ShortBarrel): CLASS(762R_MediumBarrel) {
 };
 
 // GL Variants
-class CLASS(762R_GL_Long) {
-    kickBack[] = {0.03, 0.05};
+class CLASS(762R_GL_Long): CLASS(Recoil_Default) {
     muzzleOuter[] = {0.23, 0.65, 0.32, 0.32};
     permanent = 0.13;
-    temporary = 0.02;
 };
 class CLASS(762R_GL_Medium): CLASS(762R_GL_Long) {
     muzzleOuter[] = {0.24, 0.67, 0.33, 0.33};

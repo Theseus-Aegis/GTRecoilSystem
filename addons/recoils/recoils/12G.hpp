@@ -1,13 +1,9 @@
-/*
-    Don't know how i feel about these yet. Might be a bit strong.
-*/
+// 12G
 
 // Long barreled Semi-Auto shotgun
-class CLASS(12G_LongBarrel) {
-    kickBack[] = {0.03, 0.05};
+class CLASS(12G_LongBarrel): CLASS(Recoil_Default) {
     muzzleOuter[] = {0.3, 1, 0.5, 0.5};
     permanent = 0.5;
-    temporary = 0.02;
 };
 
 // Long barreled Foregrip Semi-Auto shotgun

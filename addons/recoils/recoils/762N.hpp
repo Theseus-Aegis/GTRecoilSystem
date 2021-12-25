@@ -1,11 +1,9 @@
 // 7.62x51 NATO.
 
 // Long barreled variant of a 7.62 rifle (> 16")
-class CLASS(762N_LongBarrel) {
-        kickBack[] = {0.03, 0.05};
-        muzzleOuter[] = {0.3, 0.7, 0.46, 0.46};
-        permanent = 0.15;
-        temporary = 0.02;
+class CLASS(762N_LongBarrel): CLASS(Recoil_Default) {
+    muzzleOuter[] = {0.3, 0.7, 0.46, 0.46};
+    permanent = 0.15;
 };
 
 // Medium barreled variant of a 7.62 rifle (14"-16")
@@ -21,11 +19,9 @@ class CLASS(762N_ShortBarrel): CLASS(762N_MediumBarrel) {
 };
 
 // GL Variants
-class CLASS(762N_GL_Long) {
-    kickBack[] = {0.03, 0.05};
+class CLASS(762N_GL_Long): CLASS(Recoil_Default) {
     muzzleOuter[] = {0.29, 0.69, 0.45, 0.45};
     permanent = 0.14;
-    temporary = 0.02;
 };
 class CLASS(762N_GL_Medium): CLASS(762N_GL_Long) {
     muzzleOuter[] = {0.31, 0.71, 0.47, 0.47};

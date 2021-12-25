@@ -1,9 +1,9 @@
+// 5.45x39
+
 // Long barreled variant of a 5.45 rifle (16"-18")
-class CLASS(545_LongBarrel) {
-    kickBack[] = {0.03, 0.05};
+class CLASS(545_LongBarrel): CLASS(Recoil_Default) {
     muzzleOuter[] = {0.21, 0.5, 0.28, 0.28};
     permanent = 0.14;
-    temporary = 0.02;
 };
 
 // Medium barreled variant of a 5.45 rifle (14"-16")
@@ -19,11 +19,9 @@ class CLASS(545_ShortBarrel): CLASS(545_MediumBarrel) {
 };
 
 // GL Variants
-class CLASS(545_GL_Long) {
-    kickBack[] = {0.03, 0.05};
+class CLASS(545_GL_Long): CLASS(Recoil_Default) {
     muzzleOuter[] = {0.19, 0.48, 0.26, 0.26};
     permanent = 0.13;
-    temporary = 0.02;
 };
 
 class CLASS(545_GL_Medium): CLASS(545_GL_Long) {

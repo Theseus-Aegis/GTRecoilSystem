@@ -1,9 +1,9 @@
+// 5.56x45
+
 // Long barreled variant of a 5.56 rifle. (16"-18")
-class CLASS(556_LongBarrel) {
-    kickBack[] = {0.03, 0.05};
+class CLASS(556_LongBarrel): CLASS(Recoil_Default) {
     muzzleOuter[] = {0.23, 0.6, 0.30, 0.30};
     permanent = 0.15;
-    temporary = 0.02;
 };
 
 // Medium barreled variant of a 5.56 rifle. (14"-16")
@@ -19,11 +19,9 @@ class CLASS(556_ShortBarrel): CLASS(556_MediumBarrel) {
 };
 
 // Bullpup Variants, Lessened horizontal recoil.
-class CLASS(556_Bullpup_Long) {
-    kickBack[] = {0.03, 0.05};
+class CLASS(556_Bullpup_Long): CLASS(Recoil_Default) {
     muzzleOuter[] = {0.14, 0.65, 0.25, 0.33};
     permanent = 0.14;
-    temporary = 0.02;
 };
 
 class CLASS(556_Bullpup_Medium): CLASS(556_Bullpup_Long) {
@@ -36,11 +34,9 @@ class CLASS(556_Bullpup_Short): CLASS(556_Bullpup_Medium) {
 };
 
 // GL Variants - More Weight, less overall recoil
-class CLASS(556_GL_Long) {
-    kickBack[] = {0.03, 0.05};
+class CLASS(556_GL_Long): CLASS(Recoil_Default) {
     muzzleOuter[] = {0.22, 0.63, 0.29, 0.29};
     permanent = 0.13;
-    temporary = 0.02;
 };
 class CLASS(556_GL_Medium): CLASS(556_GL_Long) {
     muzzleOuter[] = {0.23, 0.65, 0.3, 0.3};
@@ -53,11 +49,9 @@ class CLASS(556_GL_Short): CLASS(556_GL_Medium) {
 };
 
 // Bullpup GLs
-class CLASS(556_Bullpup_GL_Long) {
-    kickBack[] = {0.03, 0.05};
+class CLASS(556_Bullpup_GL_Long): CLASS(Recoil_Default) {
     muzzleOuter[] = {0.14, 0.60, 0.25, 0.3};
     permanent = 0.12;
-    temporary = 0.02;
 };
 class CLASS(556_Bullpup_GL_Medium): CLASS(556_Bullpup_GL_Long) {
     muzzleOuter[] = {0.15, 0.63, 0.28, 0.3};
