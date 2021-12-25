@@ -23,4 +23,6 @@ class CfgRecoils {
     #include "recoils\762N.hpp"
     #include "recoils\12G.hpp"
     #include "recoils\blackout.hpp"
+    #include "recoils\300wm.hpp"
+    #include "recoils\338.hpp"
 };
