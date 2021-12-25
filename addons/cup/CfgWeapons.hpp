@@ -26,13 +26,13 @@ class CfgWeapons {
     // 6.8
     #include "caliber\68\acr.hpp"
 
-    // 762x39
+    // 7.62x39
     #include "caliber\762R\ak.hpp"
     #include "caliber\762R\cz.hpp"
     #include "caliber\762R\groza.hpp"
     #include "caliber\762R\rpk.hpp"
 
-    // 762x51
+    // 7.62x51
     #include "caliber\762N\fal.hpp"
     #include "caliber\762N\g3.hpp"
     #include "caliber\762N\galil.hpp"
@@ -45,6 +45,10 @@ class CfgWeapons {
     #include "caliber\762N\sa58.hpp"
     #include "caliber\762N\scar.hpp"
     #include "caliber\762N\stg.hpp"
+
+    // 7.62x54r
+    #include "caliber\762_54\svd.hpp"
+
     // 12G Shotguns
     #include "caliber\12G\m1014.hpp"
     #include "caliber\12G\saiga12.hpp"
