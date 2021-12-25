@@ -23,4 +23,7 @@ class CfgWeapons {
     #include "caliber\762N\hk417.hpp"
     #include "caliber\762N\m14.hpp"
     #include "caliber\762N\sig.hpp"
+
+    // .338
+    #include "caliber\338\mar10.hpp"
 };

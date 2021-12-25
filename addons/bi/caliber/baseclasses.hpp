@@ -48,6 +48,9 @@ class arifle_MSBS65_Mark_base_sand_F;
 // MX
 class arifle_MX_Base_F;
 
+// Noreen
+class DMR_02_base_F;
+
 // QBU
 class DMR_07_base_F;
 
