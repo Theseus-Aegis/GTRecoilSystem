@@ -66,6 +66,5 @@ class CLASS(556_Bullpup_GL_Short): CLASS(556_Bullpup_GL_Medium) {
 class CLASS(556_Foregrip_Long): CLASS(556_GL_Long) {};
 class CLASS(556_Foregrip_Medium): CLASS(556_GL_Medium) {};
 class CLASS(556_Foregrip_Short): CLASS(556_GL_Short) {};
-class CLASS(556_Bullpup_Foregrip_Short): CLASS(556_Bullpup_Short) {
-    muzzleOuter[] = {0.15, 0.65, 0.25, 0.3};
-};
+class CLASS(556_Bullpup_Foregrip_Short): CLASS(556_Bullpup_GL_Short) {};
+class CLASS(556_Bullpup_Foregrip_Long): CLASS(556_Bullpup_GL_Long) {};
