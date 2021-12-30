@@ -3,10 +3,12 @@ class CfgWeapons {
 
     // 5.45 Rifles
     #include "caliber\545\ak.hpp"
+    #include "caliber\545\ak12.hpp"
 
     // 5.56 Rifles
     #include "caliber\556\acr.hpp"
     #include "caliber\556\ak.hpp"
+    #include "caliber\556\ak19.hpp"
     #include "caliber\556\aug.hpp"
     #include "caliber\556\cz.hpp"
     #include "caliber\556\famas.hpp"
@@ -28,6 +30,7 @@ class CfgWeapons {
 
     // 7.62x39
     #include "caliber\762R\ak.hpp"
+    #include "caliber\762R\ak15.hpp"
     #include "caliber\762R\cz.hpp"
     #include "caliber\762R\groza.hpp"
     #include "caliber\762R\rpk.hpp"

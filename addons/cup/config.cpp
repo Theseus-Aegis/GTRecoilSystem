@@ -14,6 +14,7 @@ class CfgPatches {
             "cba_main",
             "CUP_weapons_ACR",
             "CUP_Weapons_AK",
+            "CUP_Weapons_AK12",
             "CUP_Weapons_CZ805",
             "CUP_Weapons_Famas",
             "CUP_Weapons_FNFAL",
